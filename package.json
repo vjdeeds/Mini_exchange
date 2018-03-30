@@ -1,0 +1,24 @@
+{
+    "name": "clear",
+    "version": "1.0.0",
+    "description": "Mini Exchange",
+    "main": "index.js",
+    "scripts": {
+        "test": "lab -t 100"
+    },
+    "author": "vija goyal",
+    "license": "ISC",
+    "dependencies": {
+        "code": "^5.2.0",
+        "hapi": "^13.5.0",
+        "joi": "^13.1.2",
+        "pg": "^7.4.1",
+        "pg-pool": "^2.0.3",
+        "winston": "^2.4.1",
+        "winston-daily-rotate-file": "^3.0.1"
+    },
+    "devDependencies": {
+        "lab": "^15.4.1",
+        "nodemon": "^1.17.2"
+    }
+}
